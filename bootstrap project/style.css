@@ -1,0 +1,598 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+font-family: 'Poppins', sans-serif;
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+p{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #606060;
+}
+
+i{
+    color: #2fccd2;
+}
+
+.extradiv h2, .servicediv h2{
+    font-size: 0.9rem;
+    margin: 20px 0 15px 0;
+    font-weight: bold;
+    line-height: 1.1;
+    word-spacing: 4px;
+}
+
+
+/* ***************************actual css start *************************** */
+
+
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,168,255,0.3),rgba(0,168,255,0.3)), url('/images/img-4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(100% 0%, 100% 77%, 50% 100%, 0 75%, 0 0);
+    position: relative;
+}
+
+.header::before{
+    content: "";
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    opacity: 0.4%;
+    z-index: -1;
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+
+.navbar::before{
+    content: "";
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    position: absolute;
+    opacity: 0.4%;
+    z-index: -1;    
+    background: linear-gradient(to right, #1e5799 0%, #3ccdbb 0%, #16c9f6 100%);
+}
+
+
+
+.nav-item a{
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.header-section{
+    width: 100%;
+    height: inherit;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.center-div{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.header-buttons a{
+   border: 1px solid;
+   border-radius: 100px;
+   margin: 0 5px;
+   padding: 12px 35px;
+   outline: npone;
+   font-size: 1rem;
+   font-weight: 400;
+   text-align: center;
+   color: #fff;
+   line-height: 1.4;
+   text-decoration: none;
+}
+
+.header-buttons a:hover{
+    color: #50d1c0;
+    text-decoration: none;
+    background: #fff;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+.center-div p{
+    font-size: 1.3rem;
+    padding: 10px 0 20px 0;
+    color: #fff;
+}
+
+
+/* ********************** extra div strart here  ***********************************  */
+
+
+
+.header .extra-div{
+    width: 100%;
+    height: auto;
+    margin: 100px auto;
+
+}
+
+.extradiv{
+    background: #fff;
+    border: medium none;
+    padding: 50px;
+    transition: 0.3s;
+    border-radius: 3px;
+}
+
+.extradiv:hover{
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+    transform: translateY(-20px);
+}
+
+/* ***********************offer section start here************************ */
+
+
+
+.serviceoffers{
+    background: #f7f7f9;
+    padding: 50px 0;
+    margin-bottom: 50px;
+}
+
+.heading{
+    margin-bottom: 50px;
+}
+
+.heading h1{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.names h1{
+    color: #2e2e2e;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#fa-icons i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress{
+    height: 0.6rem !important;
+    margin-bottom: 25px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* ********************************extra div strart here ********************************  */ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* project done Starts here  */
+.projectwork{
+    margin-bottom: 40px;
+}
+ .headings{
+     padding-bottom: 40px;
+
+ }
+
+
+
+ .headings p{
+     font-size: 30px;
+     font-weight: bold;
+ }
+
+ .counter-container span{
+     text-align: center;
+     font-size: 20px;
+     font-weight: 400;
+     display: flex;
+     justify-content: center;
+ }
+
+ .counter{
+    font-size: 40px;
+    font-weight: 600;
+    color: #606060;
+    padding: 8px 0 8px 0;
+ }
+
+
+ 
+  /* project done ends here  */
+
+
+  /* ******************Our pricing start here**********************  */
+
+.pricing{
+    width: 100%;
+    height: 100vh;
+    padding: 50px;
+    margin: 60px 0 110px 0;
+    background: linear-gradient(160deg, #16c9f6 55%, #fff 0%);
+}
+
+.money{
+    font-size: 40px;
+    line-height: 1;
+    color: #606060;
+}
+
+.card{
+    transition: 0.4s;
+
+}
+
+.card-header{
+    font-size: 1.6rem;
+    font-weight: bold;
+    background: #fff;
+    padding: 25px 9px !important;
+}
+
+.card-body{
+    padding: 30px 0 !important;
+
+}
+
+.card-body li{
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #606060;
+}
+
+.card-footer{
+    background: #fff!important;
+    padding: 30px 0px !important;
+}
+
+
+.card-footer a{
+    border: 1px solid #50d1c0;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    outline: npone;
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    color: #50d1c0;
+    line-height: 1.4;
+    text-decoration: none;
+ }
+ 
+ .card-footer a:hover{
+     color: #fff;
+     text-decoration: none;
+     background: #50d1c0;
+     box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+ }
+
+ .card:hover .card-footer a{
+    color: #fff;
+    text-decoration: none;
+    background: #50d1c0;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+ }
+
+ .card:hover{
+     transform: translateY(-20px);
+ }
+
+ .card:hover .card-header, .card:hover .money{
+     color: #50d1c0;
+
+ }
+
+  /* **************************Our pricing start here**************************** */
+
+
+
+
+
+
+
+
+
+
+
+/* ***************our customers start feedback****************  */
+
+
+.happyclients{
+    width: 100%;
+    height: 100vh;
+    padding: 80px 0;
+}
+
+
+.box{
+    text-align: center;
+    border: 1px solid rgba(0,0,0,0.2);
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+    border-radius: 2px;
+    transition: 0.3s ease;
+}
+
+.box:hover{
+    background: #16c9f6;
+}
+
+.box:hover p{
+  color: white;   
+}
+
+.carousel-indicators{
+    position: absolute;
+    right: 0;
+    bottom: -60px !important;
+}
+
+.carousel-indicators li{
+    background-color: #16c9f6 !important;
+}
+
+
+.box a{
+    position: relative;
+}
+
+.box a img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.box h1{
+font-size: 18px;
+font-weight: 700;
+color: #000;
+margin-bottom: 10px;
+}
+
+.box h1{
+    font-size: 13px;
+    font-weight: 700;
+    color: #666666;
+    margin-bottom: 20px;
+    }
+
+
+/* ***************our customers ends feedback****************  */
+
+
+/* contact us start here  */
+
+.contactus{
+    width: 100%;
+    height: 100vh;
+    padding: 80px;
+    position: relative;
+}
+
+.contactus::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+    background: linear-gradient(328deg, #16c9f6 55%, #fff 0%);
+}
+
+.form-button button{
+    border: 1px solid #50d1c0;
+    border-radius: 100px;
+    margin: 0 5px;
+    padding: 12px 35px;
+    color: #50d1c0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.4;
+    background: transparent;
+}
+
+.form:hover .form-button button{
+    background: #fff;
+    color: #50d1c0;
+    box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+}
+
+
+
+
+/* contact us start here  */
+
+.newsletter{
+    width: 100%;
+    height: auto;
+    margin: 80px auto;
+}
+
+
+
+.news-input{
+    /* border-radius: 100px 0px 0px 100px !important; */
+    border-radius: 100px 0px 0px 100px;
+
+}
+
+.input-group-text{
+    color: #fff;
+    background: #5bc0de;
+    border-radius: 0% 20% 20% 0%;
+}
+
+/* footer section start here  */
+
+.footer{
+    width: 100;
+    height: auto;
+    padding: 70px 0 20px 0;
+    background: #00abff;
+    position: relative;
+}
+
+
+.footer p{
+   color: #fff;
+
+}
+  
+
+.footer li a{
+    font-size: 0.9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+
+.footer h3{
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 1.2rem !important;
+    font-weight: 600;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.4);
+
+}
+
+#btn{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    color: #fff;
+    background-color: #00abff;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#btn:hover{
+    background: #606060;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  /* footer section ends here  */
+
+
+
+
+
+
+
+  /* *************media queries ************ */
+  @media(max-width:768px){
+      .nav-item{
+          text-align: center !important;
+      }
+
+      .pricing, .happyclients{
+          height: auto;
+          margin-top: 50px;
+      }
+
+      #card-second{
+          transform: translateY(0px);
+          margin: 30px 0 30px 0;
+      }
+      .contactus p{
+          padding: 0 50px;
+      }
+      .footer-div{
+          text-align: left;
+          margin: 30px;
+      }
+
+
+
+  }
